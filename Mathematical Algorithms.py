@@ -17,7 +17,6 @@ def calc():
     try:
 
         base = int(textBox.get())    
-        baseTwo = int(textboxTwo.get())
 
 # Factorial
 
@@ -65,7 +64,7 @@ def calc():
 #Prime numbers
 
         if var.get() == 3:
-
+            
             def isPrime(num):
                 if num <= 1:
                     return False
@@ -92,7 +91,8 @@ def calc():
 # Multiples
 
         if var.get() == 4:
-
+        baseTwo = int(textboxTwo.get())
+            
             def isMultiple(value):
                 if value % base == 0:
                     return True
